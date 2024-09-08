@@ -1,4 +1,4 @@
-name: elmond-workflow
+name: elmond-workflow 
 
 on:
   workflow_dispatch:
