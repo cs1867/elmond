@@ -46,7 +46,7 @@ jobs:
         - name: Check out Repo
           uses: actions/checkout@v4
           with:
-           ref: ${{ envs.BUILD_BRANCH}}
+           ref: ${{ env.BUILD_BRANCH}}
 
         - name: Fetch workflow script from projects
           env:
